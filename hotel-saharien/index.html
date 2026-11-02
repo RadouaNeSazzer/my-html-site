@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1b1915">
+    <meta
+      name="description"
+      content="فندق صحراوي في قلب الأغواط. إقامة هادئة، مطعم وضيافة دافئة. أرسل تواريخك واحصل على تأكيد التوفر مباشرة عبر واتساب."
+    >
+    <link rel="canonical" href="https://radouanesazzer.github.io/my-html-site/hotel-saharien/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_DZ">
+    <meta property="og:url" content="https://radouanesazzer.github.io/my-html-site/hotel-saharien/">
+    <meta property="og:title" content="Hôtel Saharien | إقامة هادئة في الأغواط">
+    <meta
+      property="og:description"
+      content="ضيافة صحراوية معاصرة في قلب الأغواط. تواصل مباشرة مع الاستقبال عبر واتساب."
+    >
+    <meta property="og:image" content="https://radouanesazzer.github.io/my-html-site/hotel-saharien/assets/photos/hero-hotel.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Hôtel Saharien | إقامة هادئة في قلب الأغواط</title>
+
+    <script src="scripts/locale-bootstrap.js"></script>
+    <link rel="icon" href="assets/brand/mark.svg" type="image/svg+xml">
+    <link
+      rel="preload"
+      href="assets/fonts/aref-ruqaa-arabic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      href="assets/fonts/cormorant-garamond-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    >
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/tokens.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "name": "Hôtel Saharien",
+        "url": "https://radouanesazzer.github.io/my-html-site/hotel-saharien/",
+        "description": "فندق في قلب الأغواط يوفر إقامة هادئة ومطعماً مع حجز مباشر عبر الهاتف وواتساب.",
+        "telephone": "+213770060307",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenue de l’Indépendance",
+          "addressLocality": "Laghouat",
+          "postalCode": "03000",
+          "addressCountry": "DZ"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "reviewCount": "120",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=QVV7%2BM2%20Laghouat"
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content" data-i18n="a11y.skip">انتقل إلى المحتوى</a>
+
+    <header class="site-header" id="site-header">
+      <div class="site-header__inner shell">
+        <a class="brand" href="#top">
+          <img class="brand__mark" src="assets/brand/mark.svg" width="42" height="42" alt="">
+          <span class="brand__wordmark">
+            <strong>SAHARIEN</strong>
+            <small>LAGHOUAT</small>
+          </span>
+          <span class="sr-only" data-i18n="a11y.home">الصفحة الرئيسية</span>
+        </a>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="التنقل الرئيسي">
+          <a href="#story" data-i18n="nav.story">الحكاية</a>
+          <a href="#stay" data-i18n="nav.stay">الإقامة</a>
+          <a href="#restaurant" data-i18n="nav.restaurant">المطعم</a>
+          <a href="#reviews" data-i18n="nav.reviews">الآراء</a>
+          <a href="#location" data-i18n="nav.location">الموقع</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <button
+            class="locale-toggle"
+            type="button"
+            data-locale-toggle
+            aria-label="Afficher le site en français"
+          >
+            FR
+          </button>
+          <a
+            class="button button--compact button--light header-booking"
+            href="https://wa.me/213770060307"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="nav.book"
+          >
+            احجز الآن
+          </a>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+            aria-label="فتح القائمة"
+            data-menu-toggle
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" data-menu-inert>
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__media" aria-hidden="true">
+          <img
+            src="assets/photos/hero-hotel.jpg"
+            width="1920"
+            height="1280"
+            alt=""
+            fetchpriority="high"
+          >
+        </div>
+        <div class="hero__veil"></div>
+        <div class="hero__grain" aria-hidden="true"></div>
+
+        <div class="hero__content shell">
+          <div class="hero__location" data-reveal>
+            <span class="hero__location-line"></span>
+            <span data-i18n="hero.location">الأغواط · الجزائر</span>
+          </div>
+
+          <div class="hero__copy" data-reveal>
+            <p class="eyebrow eyebrow--light" data-i18n="hero.eyebrow">ضيافة صحراوية معاصرة</p>
+            <h1 id="hero-title" data-i18n="hero.title">هدوء الصحراء،<br>بحفاوة البيت.</h1>
+            <p class="hero__lede" data-i18n="hero.lede">
+              إقامة دافئة في قلب الأغواط، حيث تبدأ راحتك من أول ترحيب.
+            </p>
+
+            <div class="hero__actions">
+              <a
+                class="button button--primary"
+                href="#booking"
+                data-i18n="hero.cta"
+              >
+                تحقق من التوفر
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18">
+                  <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a class="text-link text-link--light" href="tel:+213770060307">
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="17" height="17">
+                  <path d="M8.5 3.5 11 8 8.8 9.8c1.1 2.5 2.9 4.3 5.4 5.4L16 13l4.5 2.5-.7 4c-.1.6-.7 1-1.3 1C10.2 20.5 3.5 13.8 3.5 5.5c0-.6.4-1.2 1-1.3l4-.7Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+                <span data-i18n="hero.call">اتصل بالاستقبال</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__proof" data-reveal>
+            <div class="hero__rating">
+              <strong>4.6</strong>
+              <span class="stars" aria-label="4.6 من 5" data-rating-label>★★★★★</span>
+            </div>
+            <p>
+              <span data-i18n="hero.reviews">من 120 مراجعة Google</span>
+              <small data-i18n="hero.reviewNote">اختيار موثوق في الأغواط</small>
+            </p>
+          </div>
+
+          <a class="scroll-cue" href="#booking" aria-label="اكتشف — انتقل إلى الحجز">
+            <span data-i18n="hero.explore">اكتشف</span>
+            <i aria-hidden="true"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="booking-strip" id="booking" aria-labelledby="booking-title">
+        <div class="booking-strip__inner shell">
+          <div class="booking-strip__intro">
+            <span class="section-index">01</span>
+            <div>
+              <p class="eyebrow" data-i18n="booking.eyebrow">حجز مباشر</p>
+              <h2 id="booking-title" data-i18n="booking.title">أرسل تفاصيل إقامتك</h2>
+            </div>
+          </div>
+
+          <form class="booking-form" id="booking-form" novalidate>
+            <label class="booking-field" for="arrival">
+              <span data-i18n="booking.arrival">الوصول</span>
+              <input id="arrival" name="arrival" type="date" aria-describedby="booking-error">
+            </label>
+
+            <label class="booking-field" for="departure">
+              <span data-i18n="booking.departure">المغادرة</span>
+              <input id="departure" name="departure" type="date" aria-describedby="booking-error">
+            </label>
+
+            <label class="booking-field" for="guests">
+              <span data-i18n="booking.guests">الضيوف</span>
+              <select id="guests" name="guests" aria-describedby="booking-error">
+                <option value="1" data-i18n="booking.oneGuest">ضيف واحد</option>
+                <option value="2" data-i18n="booking.twoGuests">ضيفان</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </label>
+
+            <button class="button button--dark booking-form__submit" type="submit">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19">
+                <path d="M20.3 3.7A10 10 0 0 0 4.6 15.8L3.2 21l5.3-1.4A10 10 0 1 0 20.3 3.7Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8.2 7.5c.3-.7.6-.7 1-.7h.4c.1 0 .3 0 .5.4l1 2.3c.1.3.1.5-.1.7l-.7.9c-.2.2-.3.4-.1.7.6 1.1 1.4 2 2.5 2.6.3.2.5.1.7-.1l.9-1.1c.2-.2.5-.3.7-.2l2.2 1c.3.1.5.2.5.4.1.2.1 1-.2 1.9-.3.9-1.8 1.7-2.5 1.8-.7.1-1.6.2-4.8-1.1-4.1-1.8-6.7-6.1-6.9-6.4-.2-.3-1.6-2.2-1.6-4.1 0-2 1-3 1.4-3.4" transform="scale(.72) translate(5.3 5.4)" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span data-i18n="booking.submit">أرسل عبر واتساب</span>
+            </button>
+          </form>
+
+          <p class="booking-form__error" id="booking-error" role="status" aria-live="polite"></p>
+          <p class="booking-strip__note" data-i18n="booking.note">
+            يراجع فريق الاستقبال طلبك ويؤكد لك التوفر والسعر مباشرة.
+          </p>
+        </div>
+      </section>
+
+      <section class="story section" id="story" aria-labelledby="story-title">
+        <div class="story__inner shell">
+          <div class="story__copy" data-reveal>
+            <p class="eyebrow" data-i18n="story.eyebrow">روح المكان</p>
+            <h2 id="story-title" data-i18n="story.title">إقامة تبدأ<br>بالترحيب.</h2>
+            <p class="story__lead" data-i18n="story.lead">
+              وسط إيقاع الأغواط الهادئ، يقدم Hôtel Saharien مساحة تمنحك وقتاً أبطأ وراحة أقرب.
+            </p>
+            <p data-i18n="story.body">
+              تتكرر في آراء الضيوف كلمات بسيطة تحمل معنى كبيراً: طاقم مرحّب، غرف عصرية وأجواء هادئة. هذه التفاصيل هي جوهر التجربة هنا.
+            </p>
+            <a class="text-link" href="#stay">
+              <span data-i18n="story.link">شاهد أجواء الإقامة</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="17" height="17">
+                <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="story__visual" data-reveal>
+            <figure class="story__image story__image--main">
+              <img
+                src="assets/photos/hotel-interior.jpg"
+                width="1000"
+                height="1250"
+                alt="صورة توضيحية لغرفة فندقية مرتبة بإضاءة دافئة"
+                data-i18n-alt="storyMainAlt"
+                loading="lazy"
+              >
+            </figure>
+            <figure class="story__image story__image--detail">
+              <img
+                src="assets/photos/hotel-detail.jpg"
+                width="800"
+                height="800"
+                alt="صورة توضيحية لتفاصيل داخلية هادئة"
+                data-i18n-alt="storyDetailAlt"
+                loading="lazy"
+              >
+            </figure>
+            <div class="story__seal" aria-hidden="true">
+              <span>HÔTEL</span>
+              <img src="assets/brand/mark.svg" width="34" height="34" alt="">
+              <span>SAHARIEN</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-notes shell" data-reveal>
+          <article>
+            <span>01</span>
+            <h3 data-i18n="story.pointOneTitle">ترحيب صادق</h3>
+            <p data-i18n="story.pointOneBody">حضور إنساني يلاحظه الضيوف ويتذكرونه.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3 data-i18n="story.pointTwoTitle">غرف عصرية</h3>
+            <p data-i18n="story.pointTwoBody">مساحات مرتبة لتستعيد هدوءك بعد يوم طويل.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3 data-i18n="story.pointThreeTitle">إيقاع هادئ</h3>
+            <p data-i18n="story.pointThreeBody">أجواء تمنح إقامتك قدراً أكبر من السكينة.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stay section section--sand" id="stay" aria-labelledby="stay-title">
+        <div class="section-heading shell" data-reveal>
+          <div>
+            <p class="eyebrow" data-i18n="stay.eyebrow">داخل الفندق</p>
+            <h2 id="stay-title" data-i18n="stay.title">تفاصيل تصنع<br>إقامة أهدأ.</h2>
+          </div>
+          <p data-i18n="stay.intro">
+            من الضوء الهادئ إلى ترتيب المساحات، كل زاوية مدعوة لأن تجعلك تشعر براحة أكبر.
+          </p>
+        </div>
+
+        <div class="gallery shell">
+          <figure class="gallery__item gallery__item--tall" data-reveal>
+            <img src="assets/photos/room.jpg" width="1000" height="1320" alt="صورة توضيحية لغرفة فندقية دافئة" data-i18n-alt="roomAlt" loading="lazy">
+            <figcaption><span>01</span><strong data-i18n="stay.captionOne">غرف للراحة</strong></figcaption>
+          </figure>
+          <figure class="gallery__item gallery__item--wide" data-reveal>
+            <img src="assets/photos/lounge.jpg" width="1400" height="900" alt="صورة توضيحية لمساحة جلوس فندقية مضيئة" data-i18n-alt="loungeAlt" loading="lazy">
+            <figcaption><span>02</span><strong data-i18n="stay.captionTwo">مساحات تستقبلك</strong></figcaption>
+          </figure>
+          <aside class="gallery__quote" data-reveal>
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote data-i18n="stay.quote">نظافة، ابتسامة مشرقة، ومعاملة ترتاح لها النفوس.</blockquote>
+            <p data-i18n="stay.quoteSource">مقتطف من مراجعة ضيف على Google</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="restaurant section section--dark" id="restaurant" aria-labelledby="restaurant-title">
+        <div class="restaurant__inner shell">
+          <div class="restaurant__media" data-reveal>
+            <img
+              src="assets/photos/restaurant.jpg"
+              width="1200"
+              height="1500"
+              alt="صورة توضيحية لأطباق مرتبة على مائدة"
+              data-i18n-alt="restaurantAlt"
+              loading="lazy"
+            >
+            <div class="restaurant__monogram" aria-hidden="true">S</div>
+          </div>
+
+          <div class="restaurant__copy" data-reveal>
+            <p class="eyebrow eyebrow--light" data-i18n="restaurant.eyebrow">مطعم الفندق</p>
+            <h2 id="restaurant-title" data-i18n="restaurant.title">على المائدة،<br>تمتد الضيافة.</h2>
+            <p data-i18n="restaurant.body">
+              يكمل مطعم Hôtel Saharien تجربتك داخل الفندق، ويمنح يومك لحظة هادئة تجتمع فيها النكهات وحسن الاستقبال.
+            </p>
+            <div class="restaurant__line"></div>
+            <p class="restaurant__note" data-i18n="restaurant.note">
+              اسأل فريق الاستقبال عن خدمة المطعم عند تأكيد إقامتك.
+            </p>
+            <a
+              class="button button--outline-light"
+              href="https://wa.me/213770060307"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span data-i18n="restaurant.cta">تواصل مع الفندق</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18">
+                <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews section" id="reviews" aria-labelledby="reviews-title">
+        <div class="reviews__inner shell">
+          <div class="reviews__score" data-reveal>
+            <p class="eyebrow" data-i18n="reviews.eyebrow">يقول ضيوفنا</p>
+            <div class="reviews__number" aria-label="4.6 من 5" data-rating-label>4.6</div>
+            <div class="reviews__stars" aria-hidden="true">★★★★★</div>
+            <p data-i18n="reviews.count">بناءً على 120 مراجعة Google</p>
+          </div>
+
+          <div class="reviews__quote" data-reveal>
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <h2 id="reviews-title" data-i18n="reviews.quote">
+              فندق عائلي محترم بامتياز. نظافة، ابتسامة مشرقة، ومعاملة ترتاح لها النفوس.
+            </h2>
+            <p data-i18n="reviews.source">مقتطف من مراجعة منشورة على Google</p>
+            <div class="review-topics" aria-label="أكثر المواضيع ذكراً في المراجعات">
+              <span data-i18n="reviews.topicOne">طاقم مرحّب</span>
+              <span data-i18n="reviews.topicTwo">غرف عصرية</span>
+              <span data-i18n="reviews.topicThree">أجواء هادئة</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="location section section--sand" id="location" aria-labelledby="location-title">
+        <div class="location__inner shell">
+          <div class="location__copy" data-reveal>
+            <p class="eyebrow" data-i18n="location.eyebrow">في قلب الأغواط</p>
+            <h2 id="location-title" data-i18n="location.title">قريب من وجهتك.<br>بعيد عن الضجيج.</h2>
+
+            <address>
+              <div class="address-row">
+                <span data-i18n="location.addressLabel">العنوان</span>
+                <p>Av. de l’Indépendance<br>Laghouat 03000, Algérie</p>
+              </div>
+              <div class="address-row">
+                <span data-i18n="location.phoneLabel">الهاتف</span>
+                <a href="tel:+213770060307" dir="ltr">+213 770 06 03 07</a>
+              </div>
+              <div class="address-row">
+                <span>Plus Code</span>
+                <p dir="ltr">QVV7+M2 Laghouat</p>
+              </div>
+            </address>
+
+            <a
+              class="button button--dark"
+              href="https://www.google.com/maps/search/?api=1&query=QVV7%2BM2%20Laghouat"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span data-i18n="location.directions">افتح الاتجاهات</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18">
+                <path d="m12 3 8 8-8 10-8-10 8-8Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M9 12h5v4m0-4-2-2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="location__map" data-reveal>
+            <iframe
+              title="موقع Hôtel Saharien على الخريطة"
+              src="https://www.google.com/maps?q=H%C3%B4tel%20Saharien%2C%20Laghouat&output=embed"
+              width="760"
+              height="600"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="map-card">
+              <img src="assets/brand/mark.svg" width="32" height="32" alt="">
+              <div><strong>Hôtel Saharien</strong><span>Laghouat</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-cta" id="contact" aria-labelledby="contact-title">
+        <div class="closing-cta__media" aria-hidden="true">
+          <img src="assets/photos/desert-evening.jpg" width="1332" height="1998" alt="" loading="lazy">
+        </div>
+        <div class="closing-cta__veil"></div>
+        <div class="closing-cta__content shell" data-reveal>
+          <p class="eyebrow eyebrow--light" data-i18n="contact.eyebrow">إقامتك القادمة</p>
+          <h2 id="contact-title" data-i18n="contact.title">الأغواط أقرب<br>مما تتخيل.</h2>
+          <p data-i18n="contact.body">أرسل تواريخك الآن، وسيتولى فريق الاستقبال تأكيد التفاصيل معك مباشرة.</p>
+          <div class="closing-cta__actions">
+            <a class="button button--primary" href="#booking" data-i18n="contact.whatsapp">احجز عبر واتساب</a>
+            <a class="button button--outline-light" href="tel:+213770060307" data-i18n="contact.call">اتصل الآن</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-menu-inert>
+      <div class="site-footer__top shell">
+        <a class="brand brand--footer" href="#top">
+          <img class="brand__mark" src="assets/brand/mark.svg" width="50" height="50" alt="">
+          <span class="brand__wordmark"><strong>SAHARIEN</strong><small>LAGHOUAT</small></span>
+          <span class="sr-only" data-i18n="a11y.home">الصفحة الرئيسية</span>
+        </a>
+
+        <div class="site-footer__nav">
+          <div>
+            <p data-i18n="footer.explore">استكشف</p>
+            <a href="#story" data-i18n="nav.story">الحكاية</a>
+            <a href="#stay" data-i18n="nav.stay">الإقامة</a>
+            <a href="#restaurant" data-i18n="nav.restaurant">المطعم</a>
+          </div>
+          <div>
+            <p data-i18n="footer.contact">تواصل</p>
+            <a href="tel:+213770060307" dir="ltr">+213 770 06 03 07</a>
+            <a
+              href="https://wa.me/213770060307"
+              target="_blank"
+              rel="noopener noreferrer"
+            >WhatsApp</a>
+          </div>
+          <div>
+            <p data-i18n="footer.findUs">تجدنا</p>
+            <span>Av. de l’Indépendance</span>
+            <span>Laghouat 03000</span>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__bottom shell">
+        <p>© <span data-current-year>2026</span> Hôtel Saharien</p>
+        <p data-i18n="footer.note">ضيافة من قلب الأغواط</p>
+      </div>
+    </footer>
+
+    <a
+      class="floating-whatsapp"
+      data-menu-inert
+      href="https://wa.me/213770060307"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="احجز عبر واتساب"
+    >
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22">
+        <path d="M20.3 3.7A10 10 0 0 0 4.6 15.8L3.2 21l5.3-1.4A10 10 0 1 0 20.3 3.7Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M8.2 7.5c.3-.7.6-.7 1-.7h.4c.1 0 .3 0 .5.4l1 2.3c.1.3.1.5-.1.7l-.7.9c-.2.2-.3.4-.1.7.6 1.1 1.4 2 2.5 2.6.3.2.5.1.7-.1l.9-1.1c.2-.2.5-.3.7-.2l2.2 1c.3.1.5.2.5.4.1.2.1 1-.2 1.9-.3.9-1.8 1.7-2.5 1.8-.7.1-1.6.2-4.8-1.1-4.1-1.8-6.7-6.1-6.9-6.4-.2-.3-1.6-2.2-1.6-4.1 0-2 1-3 1.4-3.4" transform="scale(.72) translate(5.3 5.4)" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span data-i18n="floating.label">احجز مباشرة</span>
+    </a>
+
+    <noscript>
+      <div class="noscript-message">للحجز المباشر اتصل على <a href="tel:+213770060307">0770 06 03 07</a>.</div>
+    </noscript>
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>

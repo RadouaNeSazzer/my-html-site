@@ -1,0 +1,67 @@
+:root {
+  color-scheme: light;
+
+  --color-ink: #1d1a16;
+  --color-ink-soft: #5f584e;
+  --color-ink-faint: #81786b;
+  --color-night: #171612;
+  --color-night-raised: #211f1a;
+  --color-sand: #ede4d5;
+  --color-sand-light: #f6f0e7;
+  --color-paper: #fbf8f2;
+  --color-white: #fffdf8;
+  --color-gold: #c69a60;
+  --color-gold-light: #dcb984;
+  --color-gold-dark: #8b642f;
+  --color-olive: #576052;
+  --color-line: rgba(29, 26, 22, 0.16);
+  --color-line-light: rgba(255, 253, 248, 0.22);
+  --color-error: #9e3328;
+  --color-success: #306845;
+
+  --font-body: "Noto Kufi Arabic", "Manrope", sans-serif;
+  --font-body-latin: "Manrope", sans-serif;
+  --font-display: "Aref Ruqaa", Georgia, serif;
+  --font-display-latin: "Cormorant Garamond", Georgia, serif;
+
+  --text-xs: 0.72rem;
+  --text-sm: 0.84rem;
+  --text-base: 1rem;
+  --text-md: 1.1rem;
+  --text-lg: clamp(1.14rem, 1.4vw, 1.32rem);
+  --text-xl: clamp(1.5rem, 2.4vw, 2.15rem);
+  --text-2xl: clamp(2.8rem, 5.8vw, 5.9rem);
+  --text-hero: clamp(4rem, 9.2vw, 8.8rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: clamp(6rem, 10vw, 10rem);
+
+  --shell: 82rem;
+  --shell-narrow: 68rem;
+  --gutter: clamp(1.25rem, 4vw, 4.5rem);
+  --header-height: 5.5rem;
+  --radius-xs: 0.2rem;
+  --radius-sm: 0.45rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 1.5rem 5rem rgba(31, 23, 14, 0.1);
+  --shadow-lifted: 0 2rem 6rem rgba(14, 12, 9, 0.22);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration-fast: 180ms;
+  --duration-medium: 420ms;
+  --duration-slow: 760ms;
+}
+
+html[dir="ltr"] {
+  --font-body: var(--font-body-latin);
+  --font-display: var(--font-display-latin);
+}
